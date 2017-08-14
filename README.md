@@ -14,10 +14,10 @@ Returns new string with all matches of a pattern replaced by a replacement.
 ## String.prototype.startsWith()
 Returns true if a string begins with the characters of another string, otherwise false.
 
-##Date.prototype.getDiff(unit, date)
+## Date.prototype.getDiff(unit, date)
 Returns difference between dates calculated by unit.
 Unit value can be 'd' - day, 'h' - hour, 'm' - minute, by default it's calculating by minute.
 Default value of date is current date.
 
-##Date.prototype.getOnlyDate()
+## Date.prototype.getOnlyDate()
 Returns date object with only date, time is 00:00:00(GMT).
